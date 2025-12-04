@@ -4,3 +4,12 @@ Add a Product
 Get one Product
 Rate Product
 Filter Product
+
+
+
+
+
+UserController
+
+Signup - Email, name ,password, type of user- customer or seller
+Sigin - EMAIL, PASSWORD
