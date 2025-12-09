@@ -23,6 +23,9 @@ export default class UserModel {
     );
     return user;
   }
+  static getAll() {
+    return users;
+  }
 }
 var users = [
   {
@@ -30,6 +33,13 @@ var users = [
     name: "Seller User",
     email: "seller@ecom.com",
     password: "seller@123",
+    type: "seller",
+  },
+  {
+    id: 2,
+    name: "Seller User",
+    email: "seller2@ecom.com",
+    password: "seller@1234",
     type: "seller",
   },
 ];

@@ -10,6 +10,7 @@ productRouter.post(
   upload.single("imageUrl"),
   productController.addProduct
 );
+productRouter.post("/rate", productController.rateProduct);
 productRouter.get("/filter", productController.filterProducts);
 productRouter.get("/:id", productController.getProduct);
 productRouter.post("/rate", productController.rateProduct);

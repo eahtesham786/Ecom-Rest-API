@@ -36,7 +36,16 @@ export default class ProductController {
   }
   rateProduct(req, res) {
     // Logic to rate a product
-    res.send("Product rated");
+    console.log(req.query);
+    const userId = req.query.userId;
+    const productId = req.query.productId;
+    const rating = req.query.rating;
+    const error = ProductModel.rateProduct(userId, productId, rating);
+    if (error) {
+      return res.status(400).send({ message: error });
+    } else {
+      return res.status(200).send({ message: "Rating submitted successfully" });
+    }
   }
   filterProducts(req, res) {
     // Logic to filter products based on criteria

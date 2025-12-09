@@ -1,0 +1,49 @@
+2025-12-09T20:55:16.647Z - Request Body:{"email":"seller@ecom.com","password":"seller@123"}
+
+2025-12-09T21:00:21.967Z - Request URL: /, Method: GET-undefined
+
+2025-12-09T21:00:30.237Z - Request URL: /, Method: GET-undefined
+
+2025-12-09T21:00:31.321Z - Request URL: /, Method: GET-undefined
+
+2025-12-09T21:00:31.483Z - Request URL: /, Method: GET-undefined
+
+2025-12-09T21:00:31.680Z - Request URL: /, Method: GET-undefined
+
+2025-12-09T21:30:13.053Z - Request URL: /api/products/rate?userId=2&productId=1&rating=5, Method: POST-undefined
+
+2025-12-09T21:30:19.133Z - Request URL: /api/products/rate?userId=2&productId=1&rating=5, Method: POST-undefined
+
+2025-12-09T21:30:27.774Z - Request URL: /api/products/, Method: GET-undefined
+
+2025-12-09T21:30:35.489Z - Request URL: /api/cart?productId=2&quantity=2, Method: POST-undefined
+
+2025-12-09T21:30:43.029Z - Request URL: /api/cart?productId=2&quantity=2, Method: POST-undefined
+
+2025-12-09T21:30:56.526Z - Request URL: /api/cart/3, Method: DELETE-undefined
+
+2025-12-09T21:31:02.001Z - Request URL: /api/cart, Method: GET-undefined
+
+2025-12-09T21:31:07.809Z - Request URL: /api/cart, Method: GET-undefined
+
+2025-12-09T21:31:14.703Z - Request URL: /api/cart?productId=2&quantity=2, Method: POST-undefined
+
+2025-12-09T21:31:16.038Z - Request URL: /api/cart?productId=2&quantity=2, Method: POST-undefined
+
+2025-12-09T21:31:27.060Z - Request URL: /api/cart?productId=1&quantity=2, Method: POST-undefined
+
+2025-12-09T21:31:31.365Z - Request URL: /api/cart, Method: GET-undefined
+{"level":"info","message":"Request URL: /, Method: GET-undefined","service":"request-logging"}
+{"level":"info","message":"Request URL: /, Method: GET-undefined","service":"request-logging"}
+{"level":"info","message":"Request URL: /, Method: GET-undefined","service":"request-logging"}
+{"level":"info","message":"Request URL: /, Method: GET-undefined","service":"request-logging"}
+{"level":"info","message":"Request URL: /, Method: GET-undefined","service":"request-logging"}
+{"level":"info","message":"Request URL: /, Method: GET-undefined","service":"request-logging"}
+{"level":"info","message":"Request URL: /, Method: GET-undefined","service":"request-logging"}
+{"level":"info","message":"Request URL: /api/products/rate?userId=2&productId=1&rating=5, Method: POST-undefined","service":"request-logging"}
+{"level":"info","message":"Request URL: /api/products/rate?userId=2&productId=1&rating=5, Method: POST-undefined","service":"request-logging"}
+{"level":"info","message":"Request URL: /api/products/, Method: GET-undefined","service":"request-logging"}
+{"level":"info","message":"Request URL: /api/products/, Method: GET-undefined","service":"request-logging"}
+{"level":"info","message":"Request URL: /, Method: GET-undefined","service":"request-logging"}
+{"level":"info","message":"Request URL: /, Method: GET-undefined","service":"request-logging"}
+{"level":"info","message":"Request URL: /, Method: GET-undefined","service":"request-logging"}
